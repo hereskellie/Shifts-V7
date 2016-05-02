@@ -49,7 +49,7 @@
     <div id='cssmenu'>
 <ul>
             <li class='active'>
-                <a href='roster0702.php'><span>Rosters</span></a>
+                <a href='roster3101.php'><span>Rosters</span></a>
             </li>
             <li>
                 <a href='request.php'><span>Requests</span></a>
@@ -75,67 +75,67 @@
 
       
         <center><img src="company.png" width="750" height="100"></center>
-        <h2 class="form-signin-heading"><font color="white"><center>Roster for Week Ending 07/02/2016</center></font></h2>
+        <h2 class="form-signin-heading"><font color="white"><center>Roster for Week Ending <h3 id="DateEnd2"></h3></center></font></h2>
 <center><div class="tg-wrap"><table class="roster">
   <tr>
     <th class="tg-jlrw">Name</th>
-    <th class="tg-yw4l" id="Date1"></th>
-    <th class="tg-yw4l" id="Date2"></th>
-    <th class="tg-yw4l" id="Date3"></th>
-    <th class="tg-yw4l" id="Date4"></th>
-    <th class="tg-yw4l" id="Date5"></th>
-    <th class="tg-yw4l" id="Date6"></th>
-    <th class="tg-yw4l" id="Date7"></th>
+    <th class="tg-yw4l" id="Date23"></th>
+    <th class="tg-yw4l" id="Date24"></th>
+    <th class="tg-yw4l" id="Date25"></th>
+    <th class="tg-yw4l" id="Date26"></th>
+    <th class="tg-yw4l" id="Date27"></th>
+    <th class="tg-yw4l" id="Date28"></th>
+    <th class="tg-yw4l" id="Date29"></th>
   </tr>
   <tr>
     <td class="tg-baqh" id="Emp1"></td>
-    <td class="tg-yw4l" id="Emp1Mon"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
-    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l" id="Emp1Mon2"></td>
+    <td class="tg-yw4l" id="Emp1Tue2"></td>
+    <td class="tg-yw4l" id="Emp1Wed2"></td>
+    <td class="tg-yw4l" id="Emp1Thur2"></td>
+    <td class="tg-yw4l" id="Emp1Fri2"></td>
+    <td class="tg-yw4l" id="Emp1Sat2"></td>
+    <td class="tg-yw4l" id="Emp1Sun2"></td>
   </tr>
   <tr>
     <td class="tg-baqh" id="Emp2"></td>
-    <td class="tg-yw4l" id="Emp2Mon"></td>
-    <td class="tg-yw4l">HOLS</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">10:00 - 18:00</td>
+    <td class="tg-yw4l" id="Emp2Mon2"></td>
+    <td class="tg-yw4l" id="Emp2Tue2"></td>
+    <td class="tg-yw4l" id="Emp2Wed2"></td>
+    <td class="tg-yw4l" id="Emp2Thur2"></td>
+    <td class="tg-yw4l" id="Emp2Fri2"></td>
+    <td class="tg-yw4l" id="Emp2Sat2"></td>
+    <td class="tg-yw4l" id="Emp2Sun2"></td>
   </tr>
   <tr>
     <td class="tg-baqh" id="Emp3"></td>
-    <td class="tg-yw4l" id="Emp3Mon"></td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">10:00 - 18:00</td>
+    <td class="tg-yw4l" id="Emp3Mon2"></td>
+    <td class="tg-yw4l" id="Emp3Tue2"></td>
+    <td class="tg-yw4l" id="Emp3Wed2"></td>
+    <td class="tg-yw4l" id="Emp3Thur2"></td>
+    <td class="tg-yw4l" id="Emp3Fri2"></td>
+    <td class="tg-yw4l" id="Emp3Sat2"></td>
+    <td class="tg-yw4l" id="Emp3Sun2"></td>
   </tr>
   <tr>
     <td class="tg-baqh" id="Emp4"></td>
-    <td class="tg-yw4l" id="Emp4Mon"></td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">15:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
+    <td class="tg-yw4l" id="Emp4Mon2"></td>
+    <td class="tg-yw4l" id="Emp4Tue2"></td>
+    <td class="tg-yw4l" id="Emp4Wed2"></td>
+    <td class="tg-yw4l" id="Emp4Thur2"></td>
+    <td class="tg-yw4l" id="Emp4Fri2"></td>
+    <td class="tg-yw4l" id="Emp4Sat2"></td>
+    <td class="tg-yw4l" id="Emp4Sun2"></td>
   </tr>
   <tr>
     <td class="tg-baqh" id="Emp5"></td>
-    <td class="tg-yw4l" id="Emp5Mon"></td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
+    <td class="tg-yw4l" id="Emp5Mon2"></td>
+    <td class="tg-yw4l" id="Emp5Tue2"></td>
+    <td class="tg-yw4l" id="Emp5Wed2"></td>
+    <td class="tg-yw4l" id="Emp5Thur2"></td>
+    <td class="tg-yw4l" id="Emp5Fri2"></td>
+    <td class="tg-yw4l" id="Emp5Sat2"></td>
+    <td class="tg-yw4l" id="Emp5Sun2"></td>
   </tr>
 </table></div></center>
 

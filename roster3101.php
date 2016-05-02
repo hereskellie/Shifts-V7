@@ -36,7 +36,9 @@
 
     <!-- Scripts -->
     <script src="ie-emulation-modes-warning.js"></script>
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+    <script src="rosterjava.js" type="text/javascript"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -48,7 +50,7 @@
   <div id='cssmenu'>
 <ul>
             <li class='active'>
-                <a href='roster0702.php'><span>Rosters</span></a>
+                <a href='roster3101.php'><span>Rosters</span></a>
             </li>
             <li>
                 <a href='request.php'><span>Requests</span></a>
@@ -72,73 +74,67 @@
 
       
         <center><img src="company.png" width="750" height="100"></center>
-        <h2 class="form-signin-heading"><font color="white"><center>Roster for Week Ending 31/01/2016</center></font></h2>
+        <h2 class="form-signin-heading"><font color="white"><center>Roster for Week Ending <h3 id="DateEnd"></h3></center></font></h2>
 <center><div class="tg-wrap"><table class="roster">
   <tr>
     <th class="tg-jlrw">Name</th>
-    <th class="tg-yw4l">25/01</th>
-    <th class="tg-yw4l">26/01</th>
-    <th class="tg-yw4l">27/01</th>
-    <th class="tg-yw4l">28/01</th>
-    <th class="tg-yw4l">29/01</th>
-    <th class="tg-yw4l">30/01</th>
-    <th class="tg-yw4l">31/01</th>
-    <th class="tg-yw4l">Hours</th>
+    <th class="tg-yw4l" id="Date1"></th>
+    <th class="tg-yw4l" id="Date2"></th>
+    <th class="tg-yw4l" id="Date3"></th>
+    <th class="tg-yw4l" id="Date4"></th>
+    <th class="tg-yw4l" id="Date5"></th>
+    <th class="tg-yw4l" id="Date6"></th>
+    <th class="tg-yw4l" id="Date7"></th>
   </tr>
   <tr>
-    <td class="tg-baqh">Kellie Hughes</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">10:00 - 18:00</td>
-    <td class="tg-yw4l">36/16</td>
+    <td class="tg-baqh" id="Emp1"></td>
+    <td class="tg-yw4l" id="Emp1Mon"></td>
+    <td class="tg-yw4l" id="Emp1Tue"></td>
+    <td class="tg-yw4l" id="Emp1Wed"></td>
+    <td class="tg-yw4l" id="Emp1Thur"></td>
+    <td class="tg-yw4l" id="Emp1Fri"></td>
+    <td class="tg-yw4l" id="Emp1Sat"></td>
+    <td class="tg-yw4l" id="Emp1Sun"></td>
   </tr>
   <tr>
-    <td class="tg-baqh">Aidan Durnin</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">10:00 - 18:00</td>
-    <td class="tg-yw4l">40/40</td>
+    <td class="tg-baqh" id="Emp2"></td>
+    <td class="tg-yw4l" id="Emp2Mon"></td>
+    <td class="tg-yw4l" id="Emp2Tue"></td>
+    <td class="tg-yw4l" id="Emp2Wed"></td>
+    <td class="tg-yw4l" id="Emp2Thur"></td>
+    <td class="tg-yw4l" id="Emp2Fri"></td>
+    <td class="tg-yw4l" id="Emp2Sat"></td>
+    <td class="tg-yw4l" id="Emp2Sun"></td>
   </tr>
   <tr>
-    <td class="tg-baqh">Colin Regan</td>
-    <td class="tg-yw4l">9:30 - 13:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">15:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">30/24</td>
+    <td class="tg-baqh" id="Emp3"></td>
+    <td class="tg-yw4l" id="Emp3Mon"></td>
+    <td class="tg-yw4l" id="Emp3Tue"></td>
+    <td class="tg-yw4l" id="Emp3Wed"></td>
+    <td class="tg-yw4l" id="Emp3Thur"></td>
+    <td class="tg-yw4l" id="Emp3Fri"></td>
+    <td class="tg-yw4l" id="Emp3Sat"></td>
+    <td class="tg-yw4l" id="Emp3Sun"></td>
   </tr>
   <tr>
-    <td class="tg-baqh">Sean Connolly</td>
-    <td class="tg-yw4l">HOLS</td>
-    <td class="tg-yw4l">HOLS</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">10:00 - 18:00</td>
-    <td class="tg-yw4l">34/20</td>
+    <td class="tg-baqh" id="Emp4"></td>
+    <td class="tg-yw4l" id="Emp4Mon"></td>
+    <td class="tg-yw4l" id="Emp4Tue"></td>
+    <td class="tg-yw4l" id="Emp4Wed"></td>
+    <td class="tg-yw4l" id="Emp4Thur"></td>
+    <td class="tg-yw4l" id="Emp4Fri"></td>
+    <td class="tg-yw4l" id="Emp4Sat"></td>
+    <td class="tg-yw4l" id="Emp4Sun"></td>
   </tr>
   <tr>
-    <td class="tg-baqh">Roisin Bolger</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 21:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">9:30 - 17:30</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">OFF</td>
-    <td class="tg-yw4l">30/16</td>
+    <td class="tg-baqh" id="Emp5"></td>
+    <td class="tg-yw4l" id="Emp5Mon"></td>
+    <td class="tg-yw4l" id="Emp5Tue"></td>
+    <td class="tg-yw4l" id="Emp5Wed"></td>
+    <td class="tg-yw4l" id="Emp5Thur"></td>
+    <td class="tg-yw4l" id="Emp5Fri"></td>
+    <td class="tg-yw4l" id="Emp5Sat"></td>
+    <td class="tg-yw4l" id="Emp5Sun"></td>
   </tr>
 </table></div></center>
 
